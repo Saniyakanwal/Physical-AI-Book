@@ -1,0 +1,15 @@
+{
+  "unversionedId": "quickstart",
+  "id": "quickstart",
+  "title": "Quick Start Guide",
+  "description": "This guide will help you get started with Spec-Driven Development using Spec Kit.",
+  "source": "@site/docs/quickstart.md",
+  "sourceDirName": ".",
+  "slug": "/quickstart",
+  "permalink": "/docs/quickstart",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/quickstart.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

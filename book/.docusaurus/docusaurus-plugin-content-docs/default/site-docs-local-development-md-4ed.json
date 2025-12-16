@@ -1,0 +1,15 @@
+{
+  "unversionedId": "local-development",
+  "id": "local-development",
+  "title": "Local Development Guide",
+  "description": "This guide shows how to iterate on the specify CLI locally without publishing a release or committing to main first.",
+  "source": "@site/docs/local-development.md",
+  "sourceDirName": ".",
+  "slug": "/local-development",
+  "permalink": "/docs/local-development",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/local-development.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

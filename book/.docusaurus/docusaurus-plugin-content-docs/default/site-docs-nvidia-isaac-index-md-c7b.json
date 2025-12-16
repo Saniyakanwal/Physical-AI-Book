@@ -1,0 +1,28 @@
+{
+  "unversionedId": "nvidia-isaac/index",
+  "id": "nvidia-isaac/index",
+  "title": "NVIDIA Isaac Sim + Isaac ROS + RL",
+  "description": "NVIDIA Isaac Sim is a high-fidelity simulation environment built on Omniverse, specifically designed for robotics development. Combined with Isaac ROS perception packages and reinforcement learning capabilities, it provides a complete ecosystem for developing, training, and deploying advanced robotic systems.",
+  "source": "@site/docs/nvidia-isaac/index.md",
+  "sourceDirName": "nvidia-isaac",
+  "slug": "/nvidia-isaac/",
+  "permalink": "/docs/nvidia-isaac/",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/nvidia-isaac/index.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "title": "NVIDIA Isaac Sim + Isaac ROS + RL",
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialsSidebar",
+  "previous": {
+    "title": "Unity for Robotics",
+    "permalink": "/docs/unity-for-robotics/"
+  },
+  "next": {
+    "title": "Humanoid Robotics Fundamentals",
+    "permalink": "/docs/humanoid-locomotion/"
+  }
+}

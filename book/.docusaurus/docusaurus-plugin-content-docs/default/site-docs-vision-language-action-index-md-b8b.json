@@ -1,0 +1,28 @@
+{
+  "unversionedId": "vision-language-action/index",
+  "id": "vision-language-action/index",
+  "title": "Vision-Language-Action Systems",
+  "description": "Vision-Language-Action (VLA) systems represent the integration of visual perception, natural language understanding, and robotic action execution. This chapter explores how modern AI models like GPT, Whisper, and vision transformers can be combined with robotic systems to create intelligent agents that understand human commands and execute complex tasks.",
+  "source": "@site/docs/vision-language-action/index.md",
+  "sourceDirName": "vision-language-action",
+  "slug": "/vision-language-action/",
+  "permalink": "/docs/vision-language-action/",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/vision-language-action/index.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "title": "Vision-Language-Action Systems",
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialsSidebar",
+  "previous": {
+    "title": "Humanoid Robotics Fundamentals",
+    "permalink": "/docs/humanoid-locomotion/"
+  },
+  "next": {
+    "title": "Capstone: Full Humanoid Voice-to-Action Project",
+    "permalink": "/docs/capstone-project/"
+  }
+}

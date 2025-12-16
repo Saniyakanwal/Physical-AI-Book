@@ -1,0 +1,88 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/docs",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/docs",
+          "mainDocId": "index",
+          "docs": [
+            {
+              "id": "capstone-project/index",
+              "path": "/docs/capstone-project/",
+              "sidebar": "tutorialsSidebar"
+            },
+            {
+              "id": "gazebo-simulation/index",
+              "path": "/docs/gazebo-simulation/",
+              "sidebar": "tutorialsSidebar"
+            },
+            {
+              "id": "humanoid-locomotion/index",
+              "path": "/docs/humanoid-locomotion/",
+              "sidebar": "tutorialsSidebar"
+            },
+            {
+              "id": "index",
+              "path": "/docs/"
+            },
+            {
+              "id": "installation",
+              "path": "/docs/installation"
+            },
+            {
+              "id": "introduction-to-physical-ai/index",
+              "path": "/docs/introduction-to-physical-ai/",
+              "sidebar": "tutorialsSidebar"
+            },
+            {
+              "id": "local-development",
+              "path": "/docs/local-development"
+            },
+            {
+              "id": "nvidia-isaac/index",
+              "path": "/docs/nvidia-isaac/",
+              "sidebar": "tutorialsSidebar"
+            },
+            {
+              "id": "quickstart",
+              "path": "/docs/quickstart"
+            },
+            {
+              "id": "README",
+              "path": "/docs/"
+            },
+            {
+              "id": "ros-2-fundamentals/index",
+              "path": "/docs/ros-2-fundamentals/",
+              "sidebar": "tutorialsSidebar"
+            },
+            {
+              "id": "unity-for-robotics/index",
+              "path": "/docs/unity-for-robotics/",
+              "sidebar": "tutorialsSidebar"
+            },
+            {
+              "id": "vision-language-action/index",
+              "path": "/docs/vision-language-action/",
+              "sidebar": "tutorialsSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "tutorialsSidebar": {
+              "link": {
+                "path": "/docs/introduction-to-physical-ai/",
+                "label": "introduction-to-physical-ai/index"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    }
+  }
+}

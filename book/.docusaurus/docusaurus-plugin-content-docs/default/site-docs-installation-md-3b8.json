@@ -1,0 +1,15 @@
+{
+  "unversionedId": "installation",
+  "id": "installation",
+  "title": "Installation Guide",
+  "description": "Prerequisites",
+  "source": "@site/docs/installation.md",
+  "sourceDirName": ".",
+  "slug": "/installation",
+  "permalink": "/docs/installation",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/installation.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

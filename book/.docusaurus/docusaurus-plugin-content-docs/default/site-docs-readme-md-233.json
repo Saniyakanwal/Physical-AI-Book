@@ -1,0 +1,15 @@
+{
+  "unversionedId": "README",
+  "id": "README",
+  "title": "Documentation",
+  "description": "This folder contains the documentation source files for Spec Kit, built using DocFX.",
+  "source": "@site/docs/README.md",
+  "sourceDirName": ".",
+  "slug": "/",
+  "permalink": "/docs/",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/README.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

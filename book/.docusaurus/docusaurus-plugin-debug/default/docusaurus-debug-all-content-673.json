@@ -1,0 +1,376 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "loadedVersions": [
+        {
+          "versionName": "current",
+          "label": "Next",
+          "banner": null,
+          "badge": false,
+          "noIndex": false,
+          "className": "docs-version-current",
+          "path": "/docs",
+          "tagsPath": "/docs/tags",
+          "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs",
+          "editUrlLocalized": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/i18n/en/docusaurus-plugin-content-docs/current",
+          "isLast": true,
+          "routePriority": -1,
+          "sidebarFilePath": "C:\\Users\\DS\\physical-ai-book\\book\\docs\\sidebar.js",
+          "contentPath": "C:\\Users\\DS\\physical-ai-book\\book\\docs",
+          "contentPathLocalized": "C:\\Users\\DS\\physical-ai-book\\book\\i18n\\en\\docusaurus-plugin-content-docs\\current",
+          "docs": [
+            {
+              "unversionedId": "capstone-project/index",
+              "id": "capstone-project/index",
+              "title": "Capstone: Full Humanoid Voice-to-Action Project",
+              "description": "The capstone project integrates all concepts from previous chapters to create a complete autonomous humanoid robot system. This comprehensive project combines voice interaction, vision processing, path planning, humanoid control, and reinforcement learning into a single functional system that can understand voice commands and perform tasks autonomously.",
+              "source": "@site/docs/capstone-project/index.md",
+              "sourceDirName": "capstone-project",
+              "slug": "/capstone-project/",
+              "permalink": "/docs/capstone-project/",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/capstone-project/index.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "title": "Capstone: Full Humanoid Voice-to-Action Project",
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialsSidebar",
+              "previous": {
+                "title": "Vision-Language-Action Systems",
+                "permalink": "/docs/vision-language-action/"
+              }
+            },
+            {
+              "unversionedId": "gazebo-simulation/index",
+              "id": "gazebo-simulation/index",
+              "title": "Gazebo Simulation",
+              "description": "Gazebo is a physics-based simulation environment that enables testing of robot algorithms, design of robots, and training of AI systems in a safe, reproducible virtual environment. It provides realistic physics simulation, high-quality graphics, and sensor simulation essential for robotics development.",
+              "source": "@site/docs/gazebo-simulation/index.md",
+              "sourceDirName": "gazebo-simulation",
+              "slug": "/gazebo-simulation/",
+              "permalink": "/docs/gazebo-simulation/",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/gazebo-simulation/index.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "title": "Gazebo Simulation",
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialsSidebar",
+              "previous": {
+                "title": "ROS 2 Fundamentals",
+                "permalink": "/docs/ros-2-fundamentals/"
+              },
+              "next": {
+                "title": "Unity for Robotics",
+                "permalink": "/docs/unity-for-robotics/"
+              }
+            },
+            {
+              "unversionedId": "humanoid-locomotion/index",
+              "id": "humanoid-locomotion/index",
+              "title": "Humanoid Robotics Fundamentals",
+              "description": "Humanoid robotics represents one of the most challenging areas in robotics, requiring sophisticated control of multiple degrees of freedom to achieve stable locomotion, balance, and manipulation. This chapter covers the essential kinematics, dynamics, and control strategies that make humanoid robots possible.",
+              "source": "@site/docs/humanoid-locomotion/index.md",
+              "sourceDirName": "humanoid-locomotion",
+              "slug": "/humanoid-locomotion/",
+              "permalink": "/docs/humanoid-locomotion/",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/humanoid-locomotion/index.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "title": "Humanoid Robotics Fundamentals",
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialsSidebar",
+              "previous": {
+                "title": "NVIDIA Isaac Sim + Isaac ROS + RL",
+                "permalink": "/docs/nvidia-isaac/"
+              },
+              "next": {
+                "title": "Vision-Language-Action Systems",
+                "permalink": "/docs/vision-language-action/"
+              }
+            },
+            {
+              "unversionedId": "index",
+              "id": "index",
+              "title": "Spec Kit",
+              "description": "Build high-quality software faster.",
+              "source": "@site/docs/index.md",
+              "sourceDirName": ".",
+              "slug": "/",
+              "permalink": "/docs/",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/index.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {}
+            },
+            {
+              "unversionedId": "installation",
+              "id": "installation",
+              "title": "Installation Guide",
+              "description": "Prerequisites",
+              "source": "@site/docs/installation.md",
+              "sourceDirName": ".",
+              "slug": "/installation",
+              "permalink": "/docs/installation",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/installation.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {}
+            },
+            {
+              "unversionedId": "introduction-to-physical-ai/index",
+              "id": "introduction-to-physical-ai/index",
+              "title": "Introduction to Physical AI",
+              "description": "Physical AI represents the convergence of artificial intelligence with physical systems, creating intelligent agents that can perceive, reason, and act in the real world. Unlike traditional AI systems that operate purely in digital spaces, Physical AI inhabits embodied environments, requiring new approaches to perception, decision-making, and control.",
+              "source": "@site/docs/introduction-to-physical-ai/index.md",
+              "sourceDirName": "introduction-to-physical-ai",
+              "slug": "/introduction-to-physical-ai/",
+              "permalink": "/docs/introduction-to-physical-ai/",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/introduction-to-physical-ai/index.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "title": "Introduction to Physical AI",
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialsSidebar",
+              "next": {
+                "title": "ROS 2 Fundamentals",
+                "permalink": "/docs/ros-2-fundamentals/"
+              }
+            },
+            {
+              "unversionedId": "local-development",
+              "id": "local-development",
+              "title": "Local Development Guide",
+              "description": "This guide shows how to iterate on the specify CLI locally without publishing a release or committing to main first.",
+              "source": "@site/docs/local-development.md",
+              "sourceDirName": ".",
+              "slug": "/local-development",
+              "permalink": "/docs/local-development",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/local-development.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {}
+            },
+            {
+              "unversionedId": "nvidia-isaac/index",
+              "id": "nvidia-isaac/index",
+              "title": "NVIDIA Isaac Sim + Isaac ROS + RL",
+              "description": "NVIDIA Isaac Sim is a high-fidelity simulation environment built on Omniverse, specifically designed for robotics development. Combined with Isaac ROS perception packages and reinforcement learning capabilities, it provides a complete ecosystem for developing, training, and deploying advanced robotic systems.",
+              "source": "@site/docs/nvidia-isaac/index.md",
+              "sourceDirName": "nvidia-isaac",
+              "slug": "/nvidia-isaac/",
+              "permalink": "/docs/nvidia-isaac/",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/nvidia-isaac/index.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "title": "NVIDIA Isaac Sim + Isaac ROS + RL",
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialsSidebar",
+              "previous": {
+                "title": "Unity for Robotics",
+                "permalink": "/docs/unity-for-robotics/"
+              },
+              "next": {
+                "title": "Humanoid Robotics Fundamentals",
+                "permalink": "/docs/humanoid-locomotion/"
+              }
+            },
+            {
+              "unversionedId": "quickstart",
+              "id": "quickstart",
+              "title": "Quick Start Guide",
+              "description": "This guide will help you get started with Spec-Driven Development using Spec Kit.",
+              "source": "@site/docs/quickstart.md",
+              "sourceDirName": ".",
+              "slug": "/quickstart",
+              "permalink": "/docs/quickstart",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/quickstart.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {}
+            },
+            {
+              "unversionedId": "README",
+              "id": "README",
+              "title": "Documentation",
+              "description": "This folder contains the documentation source files for Spec Kit, built using DocFX.",
+              "source": "@site/docs/README.md",
+              "sourceDirName": ".",
+              "slug": "/",
+              "permalink": "/docs/",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/README.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {}
+            },
+            {
+              "unversionedId": "ros-2-fundamentals/index",
+              "id": "ros-2-fundamentals/index",
+              "title": "ROS 2 Fundamentals",
+              "description": "ROS 2 (Robot Operating System 2) is a flexible framework for writing robot software. Unlike traditional operating systems, ROS 2 is middleware that provides services designed specifically for robotic applications: hardware abstraction, device drivers, libraries, visualizers, message-passing, package management, and more.",
+              "source": "@site/docs/ros-2-fundamentals/index.md",
+              "sourceDirName": "ros-2-fundamentals",
+              "slug": "/ros-2-fundamentals/",
+              "permalink": "/docs/ros-2-fundamentals/",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/ros-2-fundamentals/index.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "title": "ROS 2 Fundamentals",
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialsSidebar",
+              "previous": {
+                "title": "Introduction to Physical AI",
+                "permalink": "/docs/introduction-to-physical-ai/"
+              },
+              "next": {
+                "title": "Gazebo Simulation",
+                "permalink": "/docs/gazebo-simulation/"
+              }
+            },
+            {
+              "unversionedId": "unity-for-robotics/index",
+              "id": "unity-for-robotics/index",
+              "title": "Unity for Robotics",
+              "description": "Unity is a powerful 3D development platform that has been adapted for robotics simulation through Unity Robotics packages. With its advanced physics engine, photorealistic rendering, and real-time performance, Unity provides an excellent environment for developing, testing, and training robotic systems.",
+              "source": "@site/docs/unity-for-robotics/index.md",
+              "sourceDirName": "unity-for-robotics",
+              "slug": "/unity-for-robotics/",
+              "permalink": "/docs/unity-for-robotics/",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/unity-for-robotics/index.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "title": "Unity for Robotics",
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialsSidebar",
+              "previous": {
+                "title": "Gazebo Simulation",
+                "permalink": "/docs/gazebo-simulation/"
+              },
+              "next": {
+                "title": "NVIDIA Isaac Sim + Isaac ROS + RL",
+                "permalink": "/docs/nvidia-isaac/"
+              }
+            },
+            {
+              "unversionedId": "vision-language-action/index",
+              "id": "vision-language-action/index",
+              "title": "Vision-Language-Action Systems",
+              "description": "Vision-Language-Action (VLA) systems represent the integration of visual perception, natural language understanding, and robotic action execution. This chapter explores how modern AI models like GPT, Whisper, and vision transformers can be combined with robotic systems to create intelligent agents that understand human commands and execute complex tasks.",
+              "source": "@site/docs/vision-language-action/index.md",
+              "sourceDirName": "vision-language-action",
+              "slug": "/vision-language-action/",
+              "permalink": "/docs/vision-language-action/",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/vision-language-action/index.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "title": "Vision-Language-Action Systems",
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialsSidebar",
+              "previous": {
+                "title": "Humanoid Robotics Fundamentals",
+                "permalink": "/docs/humanoid-locomotion/"
+              },
+              "next": {
+                "title": "Capstone: Full Humanoid Voice-to-Action Project",
+                "permalink": "/docs/capstone-project/"
+              }
+            }
+          ],
+          "drafts": [],
+          "sidebars": {
+            "tutorialsSidebar": [
+              {
+                "type": "category",
+                "label": "Physical AI & Humanoid Robotics",
+                "collapsible": false,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "introduction-to-physical-ai/index"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "ros-2-fundamentals/index"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "gazebo-simulation/index"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "unity-for-robotics/index"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "nvidia-isaac/index"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "humanoid-locomotion/index"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "vision-language-action/index"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "capstone-project/index"
+                  }
+                ],
+                "collapsed": false
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "docusaurus-plugin-content-pages": {
+    "default": [
+      {
+        "type": "jsx",
+        "permalink": "/",
+        "source": "@site/src/pages/index.js"
+      }
+    ]
+  },
+  "docusaurus-plugin-debug": {},
+  "docusaurus-theme-classic": {},
+  "docusaurus-bootstrap-plugin": {},
+  "docusaurus-mdx-fallback-plugin": {}
+}

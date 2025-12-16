@@ -1,0 +1,28 @@
+{
+  "unversionedId": "humanoid-locomotion/index",
+  "id": "humanoid-locomotion/index",
+  "title": "Humanoid Robotics Fundamentals",
+  "description": "Humanoid robotics represents one of the most challenging areas in robotics, requiring sophisticated control of multiple degrees of freedom to achieve stable locomotion, balance, and manipulation. This chapter covers the essential kinematics, dynamics, and control strategies that make humanoid robots possible.",
+  "source": "@site/docs/humanoid-locomotion/index.md",
+  "sourceDirName": "humanoid-locomotion",
+  "slug": "/humanoid-locomotion/",
+  "permalink": "/docs/humanoid-locomotion/",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/humanoid-locomotion/index.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "title": "Humanoid Robotics Fundamentals",
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialsSidebar",
+  "previous": {
+    "title": "NVIDIA Isaac Sim + Isaac ROS + RL",
+    "permalink": "/docs/nvidia-isaac/"
+  },
+  "next": {
+    "title": "Vision-Language-Action Systems",
+    "permalink": "/docs/vision-language-action/"
+  }
+}
