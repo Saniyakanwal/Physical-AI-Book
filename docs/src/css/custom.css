@@ -1,0 +1,160 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-color-primary: #2e8555;
+  --ifm-color-primary-dark: #29784c;
+  --ifm-color-primary-darker: #277148;
+  --ifm-color-primary-darkest: #205d3b;
+  --ifm-color-primary-light: #33925d;
+  --ifm-color-primary-lighter: #359962;
+  --ifm-color-primary-lightest: #3cad6e;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme='dark'] {
+  --ifm-color-primary: #25c2a0;
+  --ifm-color-primary-dark: #21af90;
+  --ifm-color-primary-darker: #1fa588;
+  --ifm-color-primary-darkest: #1a8870;
+  --ifm-color-primary-light: #29d5b0;
+  --ifm-color-primary-lighter: #32d8b4;
+  --ifm-color-primary-lightest: #4fddbf;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+/* Chat Interface Component Styles */
+.chat-interface {
+  border: 1px solid var(--ifm-color-emphasis-300);
+  border-radius: var(--ifm-global-radius);
+  margin: var(--ifm-leading);
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+  background-color: var(--ifm-background-surface-color);
+}
+
+.chat-header {
+  padding: var(--ifm-spacing-vertical) var(--ifm-spacing-horizontal);
+  border-bottom: 1px solid var(--ifm-color-emphasis-300);
+  background-color: var(--ifm-color-emphasis-100);
+  border-radius: calc(var(--ifm-global-radius) - 1px) calc(var(--ifm-global-radius) - 1px) 0 0;
+}
+
+.chat-header h3 {
+  margin: 0;
+  font-size: 1.2rem;
+}
+
+.chat-messages {
+  flex: 1;
+  overflow-y: auto;
+  padding: var(--ifm-spacing-horizontal);
+  display: flex;
+  flex-direction: column;
+  gap: var(--ifm-spacing-vertical);
+}
+
+.message {
+  max-width: 80%;
+  padding: var(--ifm-spacing-small);
+  border-radius: var(--ifm-global-radius);
+  position: relative;
+  animation: fadeIn 0.3s ease;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.message.user {
+  align-self: flex-end;
+  background-color: var(--ifm-color-primary);
+  color: white;
+  border-bottom-right-radius: 0;
+}
+
+.message.assistant {
+  align-self: flex-start;
+  background-color: var(--ifm-color-emphasis-100);
+  border: 1px solid var(--ifm-color-emphasis-300);
+  border-bottom-left-radius: 0;
+}
+
+.message-content {
+  margin-bottom: var(--ifm-spacing-small);
+}
+
+.message-timestamp {
+  font-size: 0.75rem;
+  opacity: 0.7;
+  text-align: right;
+}
+
+.typing-indicator {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 20px;
+}
+
+.typing-indicator span {
+  width: 8px;
+  height: 8px;
+  background-color: var(--ifm-color-emphasis-600);
+  border-radius: 50%;
+  margin: 0 3px;
+  animation: typing 1.4s infinite ease-in-out;
+}
+
+.typing-indicator span:nth-child(1) { animation-delay: -0.32s; }
+.typing-indicator span:nth-child(2) { animation-delay: -0.16s; }
+
+@keyframes typing {
+  0%, 80%, 100% { transform: scale(0); }
+  40% { transform: scale(1); }
+}
+
+.chat-input-form {
+  display: flex;
+  padding: var(--ifm-spacing-horizontal);
+  border-top: 1px solid var(--ifm-color-emphasis-300);
+  background-color: var(--ifm-background-surface-color);
+  border-radius: 0 0 calc(var(--ifm-global-radius) - 1px) calc(var(--ifm-global-radius) - 1px);
+}
+
+.chat-input-form input {
+  flex: 1;
+  padding: var(--ifm-spacing-small);
+  border: 1px solid var(--ifm-color-emphasis-300);
+  border-radius: var(--ifm-global-radius);
+  margin-right: var(--ifm-spacing-small);
+  background-color: var(--ifm-background-color);
+  color: var(--ifm-font-color-base);
+}
+
+.chat-input-form button {
+  padding: var(--ifm-spacing-small) var(--ifm-spacing-horizontal);
+  border: none;
+  border-radius: var(--ifm-global-radius);
+  background-color: var(--ifm-color-primary);
+  color: white;
+  cursor: pointer;
+  transition: background-color var(--ifm-transition-fast) var(--ifm-transition-timing-default);
+}
+
+.chat-input-form button:hover:not(:disabled) {
+  background-color: var(--ifm-color-primary-dark);
+}
+
+.chat-input-form button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}

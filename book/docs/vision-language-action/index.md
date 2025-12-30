@@ -1,3 +1,5 @@
+import Chatbot from '@site/src/components/Chatbot';
+
 ---
 title: Vision-Language-Action Systems
 sidebar_position: 1
@@ -23,16 +25,16 @@ By the end of this chapter, you will:
 Vision-Language-Action systems integrate three key components in a closed-loop architecture:
 
 ```
-┌─────────────────┐    ┌─────────────────┐    ┌─────────────────┐
-│    Vision       │    │   Language      │    │     Action      │
-│                 │    │                 │    │                 │
-│ • Camera Input  │───▶│ • Text/NLP      │───▶│ • Robot Control │
-│ • Object Detect │    │ • Command PARS  │    │ • Trajectory    │
-│ • Scene Understanding│  │ • Planning    │    │ • Task Execution│
-└─────────────────┘    └─────────────────┘    └─────────────────┘
-         ▲                       ▲                      ▲
-         │                       │                      │
-         └───────────────────────┴──────────────────────┘
+"O"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"    "O"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"    "O"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?
+",    Vision       ",    ",   Language      ",    ",     Action      ,
+",                 ",    ",                 ",    ",                 ,
+", ? Camera Input  ","?,"?"?"?-?," ? Text/NLP      ","?,"?"?"?-?," ? Robot Control ,
+", ? Object Detect ",    ", ? Command PARS  ",    ", ? Trajectory    ,
+", ? Scene Understanding",  ", ? Planning    ",    ", ? Task Execution",
+""?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?~    ""?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?~    ""?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?
+         ?                       ?                      ?
+         ",                       ",                      ,
+         ""?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?'?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"
                            Feedback
 ```
 
@@ -199,23 +201,23 @@ def main():
 
 ## Action Planning with GPT
 
-### GPT-based Task Planning
+### High-Level Task Planning Using Large Language Models
 
 ```python
 import rclpy
 from rclpy.node import Node
 from std_msgs.msg import String
 from geometry_msgs.msg import Pose
+from typing import List, Dict
 import openai
 import json
 import time
-from typing import List, Dict
 
 class GPTPlanner(Node):
     def __init__(self):
         super().__init__('gpt_planner')
 
-        # Subscribe to high-level commands
+        # Subscriber for high-level commands
         self.command_sub = self.create_subscription(
             String,
             'high_level_command',
@@ -223,24 +225,28 @@ class GPTPlanner(Node):
             10
         )
 
-        # Publisher for planned actions
+        # Publisher for action plans
         self.action_pub = self.create_publisher(String, 'action_plan', 10)
-        self.waypoint_pub = self.create_publisher(Pose, 'waypoint', 10)
+        self.waypoint_pub = self.create_publisher(Pose, 'waypoints', 10)
 
-        # Set OpenAI API key (in production, use secure method)
-        openai.api_key = "your-api-key-here"
-
-        # Maintain knowledge of environment
+        # Initialize knowledge base
         self.known_objects = {
-            "table": {"position": [1.0, 0.5, 0.0]},
-            "box": {"position": [2.0, -0.5, 0.0]},
-            "cup": {"position": [1.5, 0.0, 0.8]}
+            "cup": {"position": [1.0, 0.5, 0.0], "properties": {"graspable": True}},
+            "box": {"position": [2.0, -1.0, 0.0], "properties": {"graspable": True}},
+            "table": {"position": [1.5, 0.0, 0.0], "properties": {"surface": True}},
+            "charger": {"position": [0.0, 0.0, 0.0], "properties": {"recharge_station": True}}
         }
 
         self.known_rooms = {
-            "kitchen": {"objects": ["table", "cup"]},
-            "living_room": {"objects": ["box"]}
+            "kitchen": ["cup", "table"],
+            "living_room": ["box"],
+            "bedroom": ["charger"]
         }
+
+        # Set OpenAI API key (in practice, use secure configuration)
+        # openai.api_key = "your-api-key-here"
+
+        self.get_logger().info("GPT Planner initialized")
 
     def command_callback(self, msg):
         """Process high-level command and generate action plan"""
@@ -1040,3 +1046,5 @@ Answers: 1-B, 2-B, 3-B
 ## Summary
 
 Vision-Language-Action systems integrate visual perception, natural language understanding, and robotic action execution to create intelligent agents capable of understanding and responding to human commands. These systems require careful integration of multiple AI models and control systems, with proper fallback mechanisms and safety considerations. The closed-loop nature of these systems enables continuous perception-action cycles that allow robots to adapt to dynamic environments and complete complex tasks through high-level human instructions.
+
+<Chatbot />

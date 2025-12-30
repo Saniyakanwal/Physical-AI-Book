@@ -26,6 +26,23 @@ ENV/
 env/
 .venv
 
+# Docusaurus
+.docusaurus/
+build/
+.cache/
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnp/
+.pnp.js
+.next/
+.nuxt/
+dist/
+.nyc_output
+
 # IDE
 .vscode/
 .idea/
@@ -43,4 +60,3 @@ env/
 .genreleases/
 *.zip
 sdd-*/
-node_modules

@@ -1,3 +1,5 @@
+import Chatbot from '@site/src/components/Chatbot';
+
 # Installation Guide
 
 ## Prerequisites
@@ -90,3 +92,5 @@ git config --global credential.helper manager
 echo "Cleaning up..."
 rm gcm-linux_amd64.2.6.1.deb
 ```
+
+<Chatbot />

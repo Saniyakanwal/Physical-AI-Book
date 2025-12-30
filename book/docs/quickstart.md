@@ -1,3 +1,5 @@
+import Chatbot from '@site/src/components/Chatbot';
+
 # Quick Start Guide
 
 This guide will help you get started with Spec-Driven Development using Spec Kit.
@@ -121,3 +123,5 @@ implement specs/002-create-taskify/plan.md
 - Read the complete methodology for in-depth guidance
 - Check out more examples in the repository
 - Explore the source code on GitHub
+
+<Chatbot />

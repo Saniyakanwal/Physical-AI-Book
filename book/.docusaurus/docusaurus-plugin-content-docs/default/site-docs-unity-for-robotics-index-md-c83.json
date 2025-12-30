@@ -1,8 +1,8 @@
 {
   "unversionedId": "unity-for-robotics/index",
   "id": "unity-for-robotics/index",
-  "title": "Unity for Robotics",
-  "description": "Unity is a powerful 3D development platform that has been adapted for robotics simulation through Unity Robotics packages. With its advanced physics engine, photorealistic rendering, and real-time performance, Unity provides an excellent environment for developing, testing, and training robotic systems.",
+  "title": "index",
+  "description": "---",
   "source": "@site/docs/unity-for-robotics/index.md",
   "sourceDirName": "unity-for-robotics",
   "slug": "/unity-for-robotics/",
@@ -11,18 +11,14 @@
   "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/unity-for-robotics/index.md",
   "tags": [],
   "version": "current",
-  "sidebarPosition": 1,
-  "frontMatter": {
-    "title": "Unity for Robotics",
-    "sidebar_position": 1
-  },
+  "frontMatter": {},
   "sidebar": "tutorialsSidebar",
   "previous": {
-    "title": "Gazebo Simulation",
+    "title": "index",
     "permalink": "/docs/gazebo-simulation/"
   },
   "next": {
-    "title": "NVIDIA Isaac Sim + Isaac ROS + RL",
+    "title": "index",
     "permalink": "/docs/nvidia-isaac/"
   }
 }

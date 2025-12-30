@@ -25,12 +25,12 @@ export default {
       "classic",
       {
         "docs": {
-          "sidebarPath": "C:\\Users\\DS\\physical-ai-book\\book\\docs\\sidebar.js",
+          "sidebarPath": "C:\\Hackhaton-projects\\physical-ai-book\\book\\docs\\sidebar.js",
           "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/"
         },
         "blog": false,
         "theme": {
-          "customCss": "C:\\Users\\DS\\physical-ai-book\\book\\src\\css\\custom.css"
+          "customCss": "C:\\Hackhaton-projects\\physical-ai-book\\book\\src\\css\\custom.css"
         }
       }
     ]

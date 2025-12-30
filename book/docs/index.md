@@ -1,3 +1,5 @@
+import Chatbot from '@site/src/components/Chatbot';
+
 # Spec Kit
 
 *Build high-quality software faster.*
@@ -6,7 +8,7 @@
 
 ## What is Spec-Driven Development?
 
-Spec-Driven Development **flips the script** on traditional software development. For decades, code has been king — specifications were just scaffolding we built and discarded once the "real work" of coding began. Spec-Driven Development changes this: **specifications become executable**, directly generating working implementations rather than just guiding them.
+Spec-Driven Development **flips the script** on traditional software development. For decades, code has been king ?" specifications were just scaffolding we built and discarded once the "real work" of coding began. Spec-Driven Development changes this: **specifications become executable**, directly generating working implementations rather than just guiding them.
 
 ## Getting Started
 
@@ -64,3 +66,5 @@ Please see our [Contributing Guide](https://github.com/github/spec-kit/blob/main
 ## Support
 
 For support, please check our [Support Guide](https://github.com/github/spec-kit/blob/main/SUPPORT.md) or open an issue on GitHub.
+
+<Chatbot />

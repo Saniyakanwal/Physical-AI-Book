@@ -1,3 +1,5 @@
+import Chatbot from '@site/src/components/Chatbot';
+
 ---
 title: "Introduction to Physical AI"
 sidebar_position: 1
@@ -22,7 +24,7 @@ Physical AI extends traditional AI beyond computation into the physical world. I
 
 ```
 Traditional AI               Physical AI
-─────────────               ─────────────
+"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"               "?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?
 - Purely computational      - Embodied interactions
 - Perfect digital state    - Imperfect sensory input
 - Deterministic outputs    - Uncertain environmental responses
@@ -50,17 +52,17 @@ Physical systems face real limitations: battery life, computing power, heat diss
 Physical AI systems typically comprise:
 
 ```
-┌─────────────────┐    ┌─────────────────┐    ┌─────────────────┐
-│   Perception    │───▶│    Planning     │───▶│     Control     │
-│                 │    │                 │    │                 │
-│ • Cameras       │    │ • Path planning │    │ • Motor control │
-│ • IMU           │    │ • Decision-making│   │ • Trajectory    │
-│ • LiDAR         │    │ • Prediction    │    │   generation    │
-│ • Force/torque  │    │ • State machines│    │ • Feedback      │
-└─────────────────┘    └─────────────────┘    └─────────────────┘
-         ▲                       ▲                      ▲
-         │                       │                      │
-         └───────────────────────┴──────────────────────┘
+"O"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"    "O"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"    "O"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?
+",   Perception    ","?"?"?"?"?-?",    Planning     ","?"?"?"?"?-?",     Control     ",
+",                 ",    ",                 ",    ",                 ",
+", ? Cameras       ",    ", ? Path planning ",    ", ? Motor control ",
+", ? IMU           ",    ", ? Decision-making",   ", ? Trajectory    ",
+", ? LiDAR         ",    ", ? Prediction    ",    ",   generation    ",
+", ? Force/torque  ",    ", ? State machines",    ", ? Feedback      ",
+""?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?~    ""?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?~    ""?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?
+         ?                       ?                      ?
+         ",                       ",                      ",
+         ""?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?
                               Physical Environment
 ```
 
@@ -93,9 +95,9 @@ Unlike batch processing, physical systems must react within physical time constr
 Simulation bridges the gap between digital AI and physical deployment. Modern simulators like Gazebo, Isaac Sim, and Unity provide realistic physics, sensor modeling, and environments for testing before real-world deployment.
 
 ```
-Digital AI ──┐
-             ├─► Simulation ──► Physical AI
-Traditional  ─┘    (Virtual)      (Reality)
+Digital AI "?"?"?
+             "o"?"?-? Simulation "?"?"?-? Physical AI
+Traditional  "?"?~    (Virtual)      (Reality)
 Robotics
 ```
 
@@ -123,6 +125,8 @@ Answers: 1-B, 2-C, 3-B
 
 ## Summary
 
-Physical AI represents the frontier where artificial intelligence meets the real world. Its success requires integrating multiple disciplines—control theory, machine learning, sensor fusion, and physics—to create robust, efficient, and safe systems that can operate effectively in the complex, uncertain physical realm.
+Physical AI represents the frontier where artificial intelligence meets the real world. Its success requires integrating multiple disciplines?"control theory, machine learning, sensor fusion, and physics?"to create robust, efficient, and safe systems that can operate effectively in the complex, uncertain physical realm.
 
 This foundation prepares us for deeper exploration of the technical tools and techniques required to develop and deploy Physical AI systems, which we'll explore in subsequent chapters.
+
+<Chatbot />

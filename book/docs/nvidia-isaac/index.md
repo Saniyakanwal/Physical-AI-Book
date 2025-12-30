@@ -1,3 +1,5 @@
+import Chatbot from '@site/src/components/Chatbot';
+
 ---
 title: NVIDIA Isaac Sim + Isaac ROS + RL
 sidebar_position: 1
@@ -22,25 +24,25 @@ By the end of this chapter, you will:
 Isaac Sim builds on NVIDIA's Omniverse platform, providing high-fidelity physics simulation and photorealistic rendering:
 
 ```
-┌─────────────────────┐    ┌─────────────────────┐    └─────────────────────┘
-│   Omniverse Core    │    │   Isaac Sim         │    │   Isaac ROS         │
-│                     │    │                     │    │                     │
-│ • USD Scene Format  │◄──►│ • Physics Engine    │◄──►│ • Hardware Accel.   │
-│ • RTX Rendering     │    │ • Sensor Simulation │    │ • Perception Nodes  │
-│ • Multi-User Sync   │    │ • USD Robot Import  │    │ • Control Packages  │
-└─────────────────────┘    └─────────────────────┘    └─────────────────────┘
-         │                            │                           │
-         └────────────────────────────┼───────────────────────────┘
-                                      │
-                        ┌─────────────────────┐
-                        │   Reinforcement     │
-                        │   Learning          │
-                        │                     │
-                        │ • Isaac Gym         │
-                        │ • RL Environments   │
-                        │ • GPU-Accelerated   │
-                        │ • Training          │
-                        └─────────────────────┘
+"O"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"    "O"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"    ""?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?
+",   Omniverse Core    ",    ",   Isaac Sim         ",    ",   Isaac ROS         ",
+",                     ",    ",                     ",    ",                     ",
+", ? USD Scene Format  ","?,?"?"?-?," ? Physics Engine    ","?,?"?"?-?," ? Hardware Accel.   ",
+", ? RTX Rendering     ",    ", ? Sensor Simulation ",    ", ? Perception Nodes  ",
+", ? Multi-User Sync   ",    ", ? USD Robot Import  ",    ", ? Control Packages  ",
+""?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?~    ""?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?~    ""?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?
+         ",                            ",                           ",
+         ""?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?
+                                      ",
+                        "O"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?
+                        ",   Reinforcement     ",
+                        ",   Learning          ",
+                        ",                     ",
+                        ", ? Isaac Gym         ",
+                        ", ? RL Environments   ",
+                        ", ? GPU-Accelerated   ",
+                        ", ? Training          ",
+                        ""?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?
 ```
 
 ## Isaac Sim Setup and Hello World
@@ -762,3 +764,5 @@ Answers: 1-B, 2-C, 3-B
 ## Summary
 
 NVIDIA Isaac Sim provides a comprehensive platform for robotics development with high-fidelity simulation, hardware-accelerated perception through Isaac ROS, and reinforcement learning capabilities. The integration with Omniverse enables photorealistic rendering and advanced physics simulation, while Isaac Gym enables efficient training of robotic policies. The combination allows for rapid development, testing, and deployment of advanced robotic systems with strong sim-to-real transfer capabilities.
+
+<Chatbot />

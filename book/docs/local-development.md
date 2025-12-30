@@ -1,3 +1,5 @@
+import Chatbot from '@site/src/components/Chatbot';
+
 # Local Development Guide
 
 This guide shows how to iterate on the `specify` CLI locally without publishing a release or committing to `main` first.
@@ -173,3 +175,5 @@ rm -rf .venv dist build *.egg-info
 - Update docs and run through Quick Start using your modified CLI
 - Open a PR when satisfied
 - (Optional) Tag a release once changes land in `main`
+
+<Chatbot />

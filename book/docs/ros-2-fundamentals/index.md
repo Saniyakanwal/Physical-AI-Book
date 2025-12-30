@@ -1,3 +1,5 @@
+import Chatbot from '@site/src/components/Chatbot';
+
 ---
 title: ROS 2 Fundamentals
 sidebar_position: 1
@@ -22,20 +24,20 @@ By the end of this chapter, you will:
 ROS 2 uses a distributed computing model where different processes (nodes) communicate through messages. The communication is managed by DDS (Data Distribution Service), which provides reliable, real-time messaging.
 
 ```
-┌─────────────┐    ┌─────────────┐    ┌─────────────┐
-│   Node A    │    │   Node B    │    │   Node C    │
-│             │    │             │    │             │
-│ Publisher   │    │ Subscriber  │    │ Service     │
-│ /sensor_data│───▶│ /sensor_data│    │ Server      │
-│             │    │             │    │ /move_base  │
-└─────────────┘    └─────────────┘    └─────────────┘
-                          ▲                   │
-                          │                   │
-                    ┌─────┴─────┐    ┌────────▼────────┐
-                    │   DDS     │    │   Service       │
-                    │Middleware │    │ Client          │
-                    │           │    │ /move_base      │
-                    └───────────┘    └─────────────────┘
+"O"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"    "O"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"    "O"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?
+",   Node A    ",    ",   Node B    ",    ",   Node C    ",
+",             ",    ",             ",    ",             ",
+", Publisher   ",    ", Subscriber  ",    ", Service     ",
+", /sensor_data","?"?"?"?"?-?," /sensor_data",    ", Server      ,
+",             ",    ",             ",    ", /move_base  ,
+""?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?~    ""?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?~    ""?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?
+                          ?                   ",
+                          ",                   ",
+                    "O"?"?"?"?"?"?"?"?"?"?"?"?"?"?'?"?"?"?"?"?"?"?"    "O"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?
+                    ",   DDS     ",    ",   Service       ,
+                    ",Middleware ",    ", Client          ,
+                    ",           ",    ", /move_base      ,
+                    ""?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?~    ""?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?
 ```
 
 ## Nodes
@@ -396,3 +398,5 @@ Answers: 1-B, 2-C, 3-C
 ROS 2 provides the communication infrastructure necessary for developing complex robotic applications. Understanding nodes, topics, services, and actions is fundamental to building robust, modular robot software. The rclpy library makes it easy to develop Python-based ROS 2 applications that interface with the broader ROS ecosystem.
 
 Next, we'll explore how to simulate robots using Gazebo, building on these communication patterns to create virtual environments for testing and development.
+
+<Chatbot />

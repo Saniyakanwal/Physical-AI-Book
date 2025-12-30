@@ -1,3 +1,5 @@
+import Chatbot from '@site/src/components/Chatbot';
+
 ---
 title: "Humanoid Robotics Fundamentals"
 sidebar_position: 1
@@ -709,3 +711,5 @@ Answers: 1-B, 2-B, 3-C
 ## Summary
 
 Humanoid robotics requires sophisticated understanding of kinematics, dynamics, and control theory. The challenges of bipedal locomotion, balance maintenance, and dexterous manipulation require advanced algorithms and careful system design. Modern humanoid robots implement hierarchical control systems that handle everything from low-level joint control to high-level task planning, with ROS 2 providing the communication infrastructure to manage these complex systems effectively.
+
+<Chatbot />

@@ -16,49 +16,49 @@
         "items": [
           {
             "type": "link",
-            "label": "Introduction to Physical AI",
+            "label": "index",
             "href": "/docs/introduction-to-physical-ai/",
             "docId": "introduction-to-physical-ai/index"
           },
           {
             "type": "link",
-            "label": "ROS 2 Fundamentals",
+            "label": "index",
             "href": "/docs/ros-2-fundamentals/",
             "docId": "ros-2-fundamentals/index"
           },
           {
             "type": "link",
-            "label": "Gazebo Simulation",
+            "label": "index",
             "href": "/docs/gazebo-simulation/",
             "docId": "gazebo-simulation/index"
           },
           {
             "type": "link",
-            "label": "Unity for Robotics",
+            "label": "index",
             "href": "/docs/unity-for-robotics/",
             "docId": "unity-for-robotics/index"
           },
           {
             "type": "link",
-            "label": "NVIDIA Isaac Sim + Isaac ROS + RL",
+            "label": "index",
             "href": "/docs/nvidia-isaac/",
             "docId": "nvidia-isaac/index"
           },
           {
             "type": "link",
-            "label": "Humanoid Robotics Fundamentals",
+            "label": "index",
             "href": "/docs/humanoid-locomotion/",
             "docId": "humanoid-locomotion/index"
           },
           {
             "type": "link",
-            "label": "Vision-Language-Action Systems",
+            "label": "index",
             "href": "/docs/vision-language-action/",
             "docId": "vision-language-action/index"
           },
           {
             "type": "link",
-            "label": "Capstone: Full Humanoid Voice-to-Action Project",
+            "label": "index",
             "href": "/docs/capstone-project/",
             "docId": "capstone-project/index"
           }
@@ -70,20 +70,20 @@
   "docs": {
     "capstone-project/index": {
       "id": "capstone-project/index",
-      "title": "Capstone: Full Humanoid Voice-to-Action Project",
-      "description": "The capstone project integrates all concepts from previous chapters to create a complete autonomous humanoid robot system. This comprehensive project combines voice interaction, vision processing, path planning, humanoid control, and reinforcement learning into a single functional system that can understand voice commands and perform tasks autonomously.",
+      "title": "index",
+      "description": "---",
       "sidebar": "tutorialsSidebar"
     },
     "gazebo-simulation/index": {
       "id": "gazebo-simulation/index",
-      "title": "Gazebo Simulation",
-      "description": "Gazebo is a physics-based simulation environment that enables testing of robot algorithms, design of robots, and training of AI systems in a safe, reproducible virtual environment. It provides realistic physics simulation, high-quality graphics, and sensor simulation essential for robotics development.",
+      "title": "index",
+      "description": "---",
       "sidebar": "tutorialsSidebar"
     },
     "humanoid-locomotion/index": {
       "id": "humanoid-locomotion/index",
-      "title": "Humanoid Robotics Fundamentals",
-      "description": "Humanoid robotics represents one of the most challenging areas in robotics, requiring sophisticated control of multiple degrees of freedom to achieve stable locomotion, balance, and manipulation. This chapter covers the essential kinematics, dynamics, and control strategies that make humanoid robots possible.",
+      "title": "index",
+      "description": "---",
       "sidebar": "tutorialsSidebar"
     },
     "index": {
@@ -98,8 +98,8 @@
     },
     "introduction-to-physical-ai/index": {
       "id": "introduction-to-physical-ai/index",
-      "title": "Introduction to Physical AI",
-      "description": "Physical AI represents the convergence of artificial intelligence with physical systems, creating intelligent agents that can perceive, reason, and act in the real world. Unlike traditional AI systems that operate purely in digital spaces, Physical AI inhabits embodied environments, requiring new approaches to perception, decision-making, and control.",
+      "title": "index",
+      "description": "---",
       "sidebar": "tutorialsSidebar"
     },
     "local-development": {
@@ -109,8 +109,8 @@
     },
     "nvidia-isaac/index": {
       "id": "nvidia-isaac/index",
-      "title": "NVIDIA Isaac Sim + Isaac ROS + RL",
-      "description": "NVIDIA Isaac Sim is a high-fidelity simulation environment built on Omniverse, specifically designed for robotics development. Combined with Isaac ROS perception packages and reinforcement learning capabilities, it provides a complete ecosystem for developing, training, and deploying advanced robotic systems.",
+      "title": "index",
+      "description": "---",
       "sidebar": "tutorialsSidebar"
     },
     "quickstart": {
@@ -125,20 +125,20 @@
     },
     "ros-2-fundamentals/index": {
       "id": "ros-2-fundamentals/index",
-      "title": "ROS 2 Fundamentals",
-      "description": "ROS 2 (Robot Operating System 2) is a flexible framework for writing robot software. Unlike traditional operating systems, ROS 2 is middleware that provides services designed specifically for robotic applications: hardware abstraction, device drivers, libraries, visualizers, message-passing, package management, and more.",
+      "title": "index",
+      "description": "---",
       "sidebar": "tutorialsSidebar"
     },
     "unity-for-robotics/index": {
       "id": "unity-for-robotics/index",
-      "title": "Unity for Robotics",
-      "description": "Unity is a powerful 3D development platform that has been adapted for robotics simulation through Unity Robotics packages. With its advanced physics engine, photorealistic rendering, and real-time performance, Unity provides an excellent environment for developing, testing, and training robotic systems.",
+      "title": "index",
+      "description": "---",
       "sidebar": "tutorialsSidebar"
     },
     "vision-language-action/index": {
       "id": "vision-language-action/index",
-      "title": "Vision-Language-Action Systems",
-      "description": "Vision-Language-Action (VLA) systems represent the integration of visual perception, natural language understanding, and robotic action execution. This chapter explores how modern AI models like GPT, Whisper, and vision transformers can be combined with robotic systems to create intelligent agents that understand human commands and execute complex tasks.",
+      "title": "index",
+      "description": "---",
       "sidebar": "tutorialsSidebar"
     }
   }

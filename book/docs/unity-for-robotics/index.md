@@ -1,3 +1,5 @@
+import Chatbot from '@site/src/components/Chatbot';
+
 ---
 title: Unity for Robotics
 sidebar_position: 1
@@ -22,26 +24,26 @@ By the end of this chapter, you will:
 Unity Robotics operates through several integrated packages that connect Unity's simulation capabilities with ROS 2:
 
 ```
-┌──────────────────┐    ┌──────────────────┐    ┌──────────────────┐
-│    Unity        │    │  ROS TCP         │    │    ROS 2         │
-│    Editor       │    │  Connector       │    │    Nodes         │
-│                 │    │                 │    │                 │
-│ • Scene         │◄──►│ • Message       │◄──►│ • Controllers   │
-│   Management    │    │   Conversion    │    │ • Perception    │
-│ • Physics       │    │ • Protocol      │    │ • AI/ML         │
-│   Simulation    │    │   Bridge        │    │ • Planning      │
-└─────────────────┘    └─────────────────┘    └─────────────────┘
-         │                      │                      │
-         └──────────────────────┼──────────────────────┘
-                                │
-                    ┌──────────────────┐
-                    │ Unity Packages   │
-                    │                  │
-                    │ • URDF Importer  │
-                    │ • Perception     │
-                    │ • Robotics       │
-                    │ • Simulation     │
-                    └──────────────────┘
+"O"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"    "O"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"    "O"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?
+",    Unity        ",    ",  ROS TCP         ",    ",    ROS 2         ",
+",    Editor       ",    ",  Connector       ",    ",    Nodes         ",
+",                 ",    ",                 ",    ",                 ",
+", ? Scene         ","?,"?"?"?-?," ? Message       ","?,"?"?"?-?," ? Controllers   ",
+"  Management    ",    "   Conversion    ",    " ? Perception    ",
+", ? Physics       ",    ", ? Protocol      ",    ", ? AI/ML         ",
+"  Simulation    ",    "   Bridge        ",    ", ? Planning      ",
+""?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?~    ""?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?~    ""?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?
+         ",                      ",                      ",
+         ""?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?""?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"
+                                ",
+                    "O"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?
+                    ", Unity Packages   ",
+                    ",                  ",
+                    ", ? URDF Importer  ",
+                    ", ? Perception     ",
+                    ", ? Robotics       ",
+                    ", ? Simulation     ",
+                    ""?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?"?
 ```
 
 ## Unity ROS TCP Connector
@@ -572,3 +574,5 @@ Answers: 1-B, 2-C, 3-B
 ## Summary
 
 Unity for Robotics provides a powerful platform for simulating complex robotic systems with realistic physics and rendering. The integration with ROS 2 through TCP communication enables seamless transition between simulation and real hardware. The Perception Package extends Unity's capabilities for generating training data for AI systems, making it an essential tool for developing modern robotic applications.
+
+<Chatbot />
